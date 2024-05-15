@@ -6,17 +6,19 @@
     <title>第一个网页</title>
     <style>  
       body {
+	      display:flex;
         margin:10px;
+	      flex-direction:column;
+	      align-items:center;
       }
+	    #jz{
+		    display:block;
+		    background-color:pink;
+	    }
     </style>
   </head>
   <body>
-	  <div style="
-      background-color:#f1f1f1;
-      text-align:center;
-      padding:40px;
-
-    ">
+	  <div>
       <img src="https://img.zcool.cn/community/01dcd059117b12a801216a3e9c4fd5.jpg@1280w_1l_2o_100sh.jpg" alt="测试logo" width="80px" height="80px">
     </div>
     <div style="
@@ -27,7 +29,7 @@
     text-align:center;
     ">
       <p>我的网站</p>
-      <p>我的网站</p>
+      <p id="jz">我的网站</p>
       <p>我的网站</p>
       <p>我的网站</p>
       <p>我的网站</p>
